@@ -1,0 +1,179 @@
+:root {
+    --main-color: #3a6cf4;
+    /* 
+    #0a49f6
+    */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+@media(max-widtH:575px) {
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 575px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.content {
+    width: 80vw;
+    background-color: #222;
+    padding: 20px;
+}
+
+.container {
+    /* width: 100%; */
+    border-radius: 7px;
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+    grid-template-columns: 5fr 3fr;
+}
+
+.content .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 19px;
+}
+
+.content .img .img-box {
+    margin-bottom: 39px;
+}
+
+.content .img img,
+canvas {
+    min-width: 235px;
+    max-width: 399px;
+    width: 100%;
+    object-fit: cover;
+    /* max-height: 60vh; */
+}
+
+.content .upload input {
+    display: none;
+}
+
+.content .upload label {
+    color: white;
+    padding: 8px 20px;
+    border: 2px white dashed;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.333s;
+}
+
+.content .upload label:hover {
+    border-style: solid;
+    border-color:#0a49f6;
+}
+
+
+.content .filters ul,
+.content .filters ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    direction: rtl;
+}
+
+.content .filters ul li label {
+    color: white;
+}
+
+.content .filters ul li:last-child {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content .filters ul li a,
+.content .filters ul li span {
+    color: white;
+    padding: 8px 20px;
+    background-color: #3a6cf4;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content .filters ul li a:hover,
+.content .filters ul li span:hover {
+    background-color: #0a49f6;
+}
+
+
+
+@media(max-width:767px) {
+    .content {
+        margin: 35px 0;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .content .img {
+        margin-right: 0;
+    }
+}
