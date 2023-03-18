@@ -7,4 +7,4 @@
 |  [DateAndTime](https://tahataha579.github.io/Miscellaneous/DateAndTime/DateAndTime.html) |
 |  [CRUD](https://tahataha579.github.io/Miscellaneous/CRUD/crud.html) |
 |  [Memory Game](https://tahataha579.github.io/Miscellaneous/Memory%20Game/Tutorials_8.html) |
-|  [Quiz App](https://tahataha579.github.io/Miscellaneous/Quiz App/Quiz_App.html) |
+|  [Quiz App](https://tahataha579.github.io/Miscellaneous/Quiz%20App/Quiz_App.html) |
