@@ -5,4 +5,5 @@
 |  [Scrolling](https://tahataha579.github.io/Miscellaneous/Scrolling/scrolling.html) |
 |  [IsOnline](https://tahataha579.github.io/Miscellaneous/isOnline/isOnline.html) |
 |  [DateAndTime](https://tahataha579.github.io/Miscellaneous/DateAndTime/DateAndTime.html) |
-|  [CRUD](https://tahataha579.github.io/Miscellaneous//CRUD/crud.html) |
+|  [CRUD](https://tahataha579.github.io/Miscellaneous/CRUD/crud.html) |
+|  [Memory Game](https://tahataha579.github.io/Miscellaneous/Memory%20Game/Tutorials_8.html)
