@@ -16,7 +16,7 @@ setInterval(() => {
     mn.style.transform = `rotateZ(${min}deg)`;
     hr.style.transform = `rotateZ(${hor + (min / 12)}deg)`;
     getTime(Math.abs(currentDate.getHours()), currentDate.getMinutes());
-    getHistory(currentDate.getDay(), currentDate.getMonth(), currentDate.getFullYear());
+    getHistory(currentDate.getDate(), currentDate.getMonth(), currentDate.getFullYear());
 }, 0);
 
 function getTime(hours, minutes) {
@@ -24,8 +24,8 @@ function getTime(hours, minutes) {
     if (hours > 12) {
         hours -= 12;
     }
-    let m = (minutes > 10) ? minutes : `0${minutes}`;
-    let h = (hours > 10) ? hours : `0${hours}`;
+    let m = (minutes >= 10) ? minutes : `0${minutes}`;
+    let h = (hours >= 10) ? hours : `0${hours}`;
     time.innerHTML = `${h}:${m}`;
 }
 
