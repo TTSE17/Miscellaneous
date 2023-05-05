@@ -9,3 +9,4 @@
 |  [Memory Game](https://tahataha579.github.io/Miscellaneous/Memory%20Game/Tutorials_8.html) |
 |  [Quiz App](https://tahataha579.github.io/Miscellaneous/Quiz%20App/Quiz_App.html) |
 |  [Simple Calculator](https://tahataha579.github.io/Miscellaneous/Calculator/Calculator.html) |
+|  [Tic Tac Toe](https://tahataha579.github.io/Miscellaneous/Tic%20Tac%20Toe/Tic_Tac_Toe.html) |
