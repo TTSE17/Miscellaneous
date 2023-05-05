@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <!-- Render All Element Normally -->
+  <link rel="stylesheet" href="CSS/normalize.css" />
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <link rel="stylesheet" href="CSS/Tic_Tac_Toe.css" />
+</head>
+
+<body>
+  <div class="content">
+    <div class="main-section row w-50 pt-5 mx-auto">
+      <div class="cell col-4 border-bottom border-end border-dark border-2 px-0 text-center" number="1"></div>
+      <div class="cell col-4 border-bottom border-end border-dark border-2 px-0 text-center" number="2"></div>
+      <div class="cell col-4 border-bottom border-dark border-2 px-0 text-center" number="3"></div>
+      <div class="cell col-4 border-bottom border-end border-dark border-2 px-0 text-center" number="4"></div>
+      <div class="cell col-4 border-bottom border-end border-dark border-2 px-0 text-center" number="5"></div>
+      <div class="cell col-4 border-bottom border-dark border-2 px-0 text-center" number="6"></div>
+      <div class="cell col-4 border-end border-dark border-2 px-0 text-center" number="7"></div>
+      <div class="cell col-4 border-end border-end border-dark border-2 px-0 text-center" number="8"></div>
+      <div class="cell col-4 px-0 text-center" number="9"></div>
+    </div>
+    <div class="message ">
+      <div></div>
+      <button class="btn btn-success fs-2">Play Again</button>
+    </div>
+    <div class="w-100 mt-5 text-center">
+      <table class="table  w-50 mx-auto table-bordered  table-hover table-warning text-white">
+        <thead>
+          <tr>
+            <th class="bg-primary">O's Wins</th>
+            <th class="bg-primary">Draw</th>
+            <th class="bg-primary">X's Wins</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-dark">
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="text-center">
+      <button class="reset btn btn-danger">Reset Results</button>
+    </div>
+  </div>
+
+
+  <!-- <script src="JS/popper.min.js"></script> -->
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/all.min.js"></script>
+  <script src="JS/Tic_Tac_Toe.js"></script>
+
+</body>
+
+</html>
