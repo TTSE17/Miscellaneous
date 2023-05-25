@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <!-- Render All Element Normally -->
+  <link rel="stylesheet" href="CSS/normalize.css" />
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <link rel="stylesheet" href="CSS/master.css" />
+  <link rel="shortcut icon" href="#">
+
+
+</head>
+
+<body class="d-flex justify-content-center">
+
+  <div class="TheGame mt-5 w-75">
+
+    <div class="d-flex justify-content-center ">
+      <button class="btn fs-1 shadow-none" choice="rock">✊</button>
+      <button class="btn fs-1 shadow-none" choice="paper">✋</button>
+      <button class="btn fs-1 shadow-none" choice="scissors">✌</button>
+    </div>
+
+    <div
+      class="selections d-flex justify-content-between justify-content-md-around   align-items-start text-center my-4">
+      <div class="fs-2">You
+        <div class="player fs-1"></div>
+      </div>
+      <div class="fs-2">Computer
+        <div class="computer fs-1"></div>
+      </div>
+    </div>
+
+    <div class="w-100 mt-5 text-center">
+      <table class="table  w-100 mx-auto table-bordered  table-hover table-warning text-white">
+        <thead>
+          <tr>
+            <th class="bg-primary">Player</th>
+            <th class="bg-primary">Draw</th>
+            <th class="bg-primary">Computer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-dark">
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="text-center">
+      <button class="reset btn btn-danger">Reset Results</button>
+    </div>
+
+  </div>
+
+  <!-- <script src="JS/popper.min.js"></script> -->
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/all.min.js"></script>
+  <script src="JS/main.js"></script>
+
+</body>
+
+</html>

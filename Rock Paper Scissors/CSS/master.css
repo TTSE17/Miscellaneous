@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ddd;
+}
+
+button:not(.reset) {
+    transition: 0.1s !important;
+}
+
+button:not(.reset):hover {
+    scale: 1.5;
+}
+
+.TheGame>div:nth-child(2),
+.reset {
+    letter-spacing: 1.3px;
+}
