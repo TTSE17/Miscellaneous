@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ddd;
+    margin: 0;
+    font-family: auto;
+    user-select: none;
+}
+
+.allCards {
+    cursor: pointer;
+}
+
+.allCards.block {
+    pointer-events: none;
+}
+
+.content>div {
+    padding-top: 19px;
+    display: grid;
+    grid-template-columns: repeat(2, 5rem);
+    grid-template-rows: 7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+
+.players {
+    grid-template-rows: 2rem !important;
+    text-align: center;
+}
+
+.result {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 2rem !important;
+    text-align: center;
+}
+
+.cards,
+.card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+}
+
+.computerCards {
+    background-color: red;
+}
+
+.playerCards {
+    background-color: green;
+}
+
+.card {
+    color: black;
+    font-size: 3.9rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.card.red {
+    color: red;
+}
+
+.card::before,
+.card::after {
+    content: attr(value);
+    font-size: 0.9rem;
+    position: absolute;
+}
+
+.card::before {
+    left: 5.5px;
+    top: 3.9px;
+}
+
+.card::after {
+    right: 5.5px;
+    bottom: 3.9px;
+    rotate: 180deg;
+}
+
+.again {
+    position: relative;
+    left: -75%;
+    width: fit-content;
+    margin: 37px auto 0;
+    padding: 6px 15px;
+    color: white;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.again:hover {
+    background-color: #0b5ed7;
+}
+
+.again.show {
+    left: 0;
+}
